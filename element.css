@@ -1,0 +1,33 @@
+p,
+a {
+    color: cornflowerblue;
+}
+
+li {
+    list-style: square;
+    color: crimson;
+    font-weight: 300;
+}
+
+li.special,
+span.special {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+li em {
+    color: goldenrod;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: solid
+}
+
+body h1+p .special {
+    background-color: midnightblue;
+}
+
+li[class="k"] {
+    background-color: orange;
+}
